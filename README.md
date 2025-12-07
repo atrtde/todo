@@ -3,6 +3,8 @@
 A simple and interactive command-line tool written in Rust to manage todos in your project repositories.  
 Tasks are stored in a local `todo.json` file at the root of the repository.
 
+![Demo](assets/todo.gif)
+
 ## Features
 
 - Add tasks via prompt or directly from the command line.
