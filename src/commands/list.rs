@@ -10,8 +10,8 @@ pub fn run() -> Result<()> {
     }
 
     for todo in &todos {
-        let status = if todo.completed { "" } else { "❌" };
-        println!("[{}] {} {}", todo.id, status, todo.task);
+        let status = if todo.completed { "✓" } else { "x" };
+        println!("[{}] [{}] {}", todo.id, status, todo.task);
     }
 
     Ok(())
