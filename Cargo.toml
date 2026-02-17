@@ -1,6 +1,6 @@
 [package]
 name = "simple-todo-cli"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2024"
 description="A simple todo CLI app in Rust."
 documentation = "https://github.com/atrtde/todo"
