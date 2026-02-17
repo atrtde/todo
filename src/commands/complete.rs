@@ -12,10 +12,7 @@ pub fn run() -> Result<()> {
         return Ok(());
     }
 
-    let options: Vec<String> = incomplete
-        .iter()
-        .map(|t| format!("[{}] {}", t.id, t.task))
-        .collect();
+    let options: Vec<String> = incomplete.iter().map(|t| t.task.to_string()).collect();
 
     let selected = MultiSelect::new("Select tasks to mark as completed:", options).prompt()?;
     let ids_to_complete: Vec<usize> = selected
