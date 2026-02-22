@@ -44,4 +44,4 @@ Todos are saved in a `todo.json` file in the current working directory. You can 
 
 ## License
 
-MIT License. See `LICENSE` for more information.
+GPL-3.0 or later. See `LICENSE` for more information.
