@@ -3,10 +3,10 @@ name = "simple-todo-cli"
 version = "1.0.4"
 edition = "2024"
 description="A simple todo CLI app in Rust."
-authors = ["Alexandre Trotel"]
-documentation = "https://github.com/alexandretrotel/todo"
-repository = "https://github.com/alexandretrotel/todo"
-homepage = "https://github.com/alexandretrotel/todo"
+authors = ["atrtde"]
+documentation = "https://github.com/atrtde/todo"
+repository = "https://github.com/atrtde/todo"
+homepage = "https://github.com/atrtde/todo"
 license="GPL-3.0-or-later"
 
 [[bin]]
